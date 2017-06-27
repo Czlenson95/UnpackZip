@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF5BF2B3-763D-482D-8000-DB146869AA72}</ProjectGuid>
+    <ProjectGuid>{11C92EE7-A0BF-44FA-8DD8-BEE9388929B3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>UnpackZip</RootNamespace>
-    <AssemblyName>UnpackZip</AssemblyName>
+    <RootNamespace>UnpackZipClient</RootNamespace>
+    <AssemblyName>UnpackZipClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,10 +53,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unzipper.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
